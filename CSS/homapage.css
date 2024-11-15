@@ -1,0 +1,173 @@
+/*title part*/
+header{
+   
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+
+.nav-links li a {
+    text-decoration: none ;
+    font-size: 35px;
+    font-family:Caveat ;
+    color: #632e22;
+    display: block;
+    position: relative;
+    background-color: #fc9e01;
+    
+}
+.nav-links li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    position: relative;
+}
+
+img.logo{
+padding-left: 20px;
+    align-items: center;
+}
+
+.drop-down{
+    position:absolute;
+    background-color: #fc9e01;
+    width: 200px;
+    padding: 1.5em 0.5em;
+    text-align: center;
+    display: none;
+}
+/*let the elements show out*/
+ul li:hover ul.drop-down{
+    display: block;
+}
+
+
+.nav-links li a:hover{
+    color:bisque;
+}
+
+.nav-links li:active{
+    border-left: 8px solid #c74a36 ;
+}
+
+.drop-down li a:hover{
+    background-color: #c74a36;
+    color: bisque;
+    padding:10px;
+}
+
+button{
+    border: none;
+    font-size: 30px;
+    padding: 20px 20px;
+    background-color:bisque;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family:Caveat ;
+    line-height: 12px;
+    border-right: 10px;
+    margin-right: 20px;
+
+    
+
+}
+
+button:hover{
+    background-color: #c74a36;
+    color: bisque;
+    margin: 0px;
+    transition: all 0.3s ease 0s;
+    padding: 20px 20px;
+    margin-right: 20px;
+}
+
+/*content part*/
+.container{
+    display: grid;
+    grid-template-columns: 250px 2fr 200px;
+    grid-template-rows: 100vh;
+    
+}
+.menu{
+    background-color: #fc9e01;
+    padding-top:20px;
+    position:sticky;
+    top:0;
+    border-radius: 20px;
+    
+}
+
+/*Center Part*/
+
+.center-content{
+    line-height: 1.5;
+    overflow-y: auto;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.cooking{
+   width:450px;
+   margin-bottom: 20px;
+}
+
+.center-content h1{
+    font-size: 35px;
+    font-family:Caveat ;
+    color: #632e22;
+    text-align: center;
+}
+
+.center-content p{
+    font-size: 25px;
+    font-family:EB Garamond;
+    color: #632e22;
+    text-align:justify;
+}
+
+/*contact information*/
+h2{
+    font-family: Caveat;
+    font-size: 25px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 0%;
+}
+.contact-form{
+    box-sizing: border-box;
+    background-color: #c74a36 ;
+    align-items: center;
+    border-radius: 30px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+.contact-title{
+    align-items: center;
+}
+.box{
+    display: inline-block;
+    width:30%;
+    text-align: center;
+    margin-left: 20px;
+    height:30px;
+    text-decoration: none;
+}
+h3{
+    margin-bottom:15px ;
+    color: #FFFFFF;
+    text-decoration: none;
+    list-style: none;
+    
+}
+.icons{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color:#FFFFFF;
+}

@@ -1,0 +1,156 @@
+/*title part*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fc9e01;
+
+}
+
+.nav-links li a {
+    text-decoration: none ;
+    font-size: 30px;
+    font-family:Caveat ;
+    color: #632e22;
+    display: block;
+    position: relative;
+    background-color: #fc9e01;
+    
+}
+.nav-links li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    position: relative;
+}
+.logo{
+    width: 100px;
+}
+
+.drop-down{
+    position:absolute;
+    background-color: #fc9e01;
+    width: 200px;
+    padding: 1.5em 0.5em;
+    text-align: center;
+    display: none;
+}
+/*let the elements show out*/
+ul li:hover ul.drop-down{
+    display: block;
+}
+
+
+.nav-links li a:hover{
+    color:bisque;
+}
+
+.drop-down li a:hover{
+    background-color: #c74a36;
+    color: bisque;
+    padding:10px;
+}
+
+button{
+    border: none;
+    font-size: 30px;
+    padding: 20px 20px;
+    background-color:bisque;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family:Caveat ;
+    line-height: 12px;
+    border-right: 10px;
+    margin-right: 20px;
+    
+
+}
+
+button:hover{
+    background-color: #c74a36;
+    color: bisque;
+    margin: 0px;
+    transition: all 0.3s ease 0s;
+    padding: 20px 20px;
+    margin-right: 20px;
+}
+
+/*content part*/
+/*whole page background*/
+main{
+    width:100%;
+    height: 150vh;
+    background-image: url("background_for_recommendation.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+  
+
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.row::after{
+   content:"";
+   display: table;
+   clear:both;
+}
+
+.column{
+    float: left;
+    width: 50%;
+    padding:10px;
+    height:300px;
+}
+
+/*left section */
+
+.left_section{
+    font-family: Caveat;
+    color: white;
+    background-color:#688125 ;
+    height:auto;
+   
+
+    
+}
+h1{
+    padding: 20px;
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: minmax(300px,50%) 1fr;
+}
+.food_page{
+    padding-left: 50px;
+}
+
+.grid, p{
+    padding-right: 40px;
+}
+/*right section */
+
+.right_section{
+    font-family: Caveat;
+    color: white;
+    background-color:#632e22;
+    height:auto;
+
+
+
+}
+
+p{
+    font-family:EB Garamond ;
+    font-size:25px ;
+    padding: 40px;
+    text-align:justify;
+}
+
+p:hover,p:active {
+    text-decoration:underline ;
+}

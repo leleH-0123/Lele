@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe</title>
+    <!--link to fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <!--link to CSS-->
+    <link rel="stylesheet" href="CSS/recipepage.css">
+</head>
+<body>
+    <!--header part-->
+    <header>
+        <a href="welcomepage.html"><img class="logo" src="images/logo colour.png" alt="logo"></a>
+        
+        <nav class="nav-links">
+            <ul>
+                <!--the # needs to be the link of websites, we can link it later-->
+                <li><a href="homepage.html">Home Page</a></li>
+                <li><a href="Tipspage.html">Tips</a></li>
+                <li><a href="recommendpage.html">Food Recommend</a></li>
+                <li><a href="recipepage.html">Recipe</a>
+                    <ul class="drop-down">
+                        <li><a href="recipe01.html">Recipe01</a></li>
+                        <li><a href="recipe02.html">Recipe02</a></li>
+                    </ul>
+                
+                </li>
+    
+            </ul>
+        </nav>
+        <!--the button link to the contact page-->
+        <a href="homepage.html#contact">
+            <button>Contacts</button>
+        </a>
+
+    </header>
+
+    <!--main content part-->
+    <h1>
+        Some Easy Recipes
+    </h1>
+    <div class="grid">
+        <div class="box">
+            <img class="boximg" src="images/fried salmon_after.jpg" alt="two pieces of fried salmon">
+            <p>Fried Salmon</p>
+            <a class="more" href="recipe01.html" alt="the link to fried salmon recipe">Read more...</a>
+
+        </div>
+        <div class="box">
+            <img class="boximg" src="images/roast chicken_after.jpg" alt="roast chicken">
+            <p>Roast Chicken</p>
+            <a class="more" href="recipe02.html" alt="the link to roast chicken recipe">Read more...</a>
+
+        </div>
+       
+    </div>
+
+</body>
+</html>

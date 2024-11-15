@@ -1,0 +1,136 @@
+/*title part*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fc9e01;
+    
+}
+
+.nav-links li a {
+    text-decoration: none ;
+    font-size: 30px;
+    font-family:Caveat ;
+    color: #632e22;
+    display: block;
+    position: relative;
+    background-color: #fc9e01;
+}
+.nav-links li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    position: relative;
+}
+.logo{
+    width: 100px;
+}
+
+.drop-down{
+    position:absolute;
+    background-color: #fc9e01;
+    width: 200px;
+    padding: 1.5em 0.5em;
+    text-align: center;
+    display: none;
+}
+/*let the elements show out*/
+ul li:hover ul.drop-down{
+    display: block;
+}
+
+
+.nav-links li a:hover{
+    color:bisque;
+}
+
+.drop-down li a:hover{
+    background-color: #c74a36;
+    color: bisque;
+    padding:10px;
+}
+
+button{
+    border: none;
+    font-size: 30px;
+    padding: 20px 20px;
+    background-color:bisque;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family:Caveat ;
+    line-height: 12px;
+    border-right: 10px;
+    margin-right: 20px;
+
+    
+
+}
+
+button:hover{
+    background-color: #c74a36;
+    color: bisque;
+    margin: 0px;
+    transition: all 0.3s ease 0s;
+    padding: 20px 20px;
+    margin-right: 20px;
+}
+
+/*Content part*/
+main{
+  
+    background-color: rgb(251, 244, 235);
+    margin-top: 0;
+  
+}
+.title{
+    margin-top:0;
+    background-color: rgb(251, 244, 235);
+}
+h1{
+    font-family:Caveat ;
+    font-size: 40px;
+    text-decoration:none;
+    text-align: center;
+    margin-top:0;
+    padding-top: 50px;
+    color: #632e22;
+    text-shadow: #FC0 1px 0px 10px;
+    
+}
+.container{
+    display: flex;
+   
+}
+
+.box{
+    flex:1;
+    margin:20px;
+    padding: 40px;
+    
+}
+h2{
+    font-family:Caveat ;
+    font-size: 30px;
+    text-decoration: none;
+    color: #632e22;
+    text-align: center;
+}
+
+h2:hover, h2:active{
+    background-color: #fc9e01;
+}
+p{
+    font-family: EB Garamond;
+    font-size: 25px;
+    color: #632e22;
+}
+
+p:hover,p:active {
+    text-decoration:underline ;
+}
+
+img{
+    align-items: center;
+    
+}
+
